@@ -1,0 +1,38 @@
+version: "3.8"
+
+volumes:
+    mysql_data:
+    composer_cache:
+
+networks:
+    default:
+        external: true
+        name: workspace_default
+
+services:
+    # MariaDB
+    mysql:
+        image: mariadb:10
+        volumes:
+            - mysql_data:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+            - MYSQL_DATABASE=${MYSQL_DATABASE}
+            - TZ=${TIMEZONE}
+
+    # Symfony + Vue.js
+    symfony_with_vue:
+        image: docker-registry:5000/php:8.0-pub
+        healthcheck:
+            test: curl --silent --retry 1 http://localhost/index.php || exit 1
+            interval: 10s
+        volumes:
+            - ${PROJECT_ROOT}:/var/www/html:delegated
+            - composer_cache:/root/.composer:delegated
+        links:
+            - mysql:database
+        labels:
+            - "traefik.enable=true"
+            - "traefik.http.routers.swv.entrypoints=http"
+            - "traefik.http.routers.swv.rule=Host(`vue.${PROJECT_NAME}.${DEV_HOST_DOMAIN}`)"
+            - "traefik.http.services.swv.loadBalancer.server.port=80"
