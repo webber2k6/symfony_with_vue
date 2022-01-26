@@ -1,3 +1,6 @@
+.idea/
+.yarn/
+.env
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -8,10 +11,6 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-
-.idea/
-
-.env
 
 ###> symfony/webpack-encore-bundle ###
 /node_modules/

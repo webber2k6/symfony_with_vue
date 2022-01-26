@@ -2,8 +2,13 @@
     "devDependencies": {
         "@hotwired/stimulus": "^3.0.0",
         "@symfony/webpack-encore": "^1.7.0",
+        "@vue/compiler-sfc": "^3.2.29",
+        "axios": "^0.25.0",
         "core-js": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
+        "vue": "next",
+        "vue-loader": "next",
+        "vue-router": "next",
         "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",
@@ -13,5 +18,6 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
-    }
+    },
+    "packageManager": "yarn@3.1.1"
 }
