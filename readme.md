@@ -56,3 +56,15 @@ class Contact
     private string $firstName;
 }
 ```
+
+## Vue.js installieren
+
+Zur Integration von webpack wird die Symfony Komponente Webpack Encore verwendet.
+
+* `composer require encore`
+
+Die Dateien für Symfony UX werden nicht benötigt und können wieder entfernt werden:
+
+* /assets/*
+* `@symfony/stimulus-bridge` aus der Datei `package.json`
+* `enableStimulusBridge(...)` aus der Datei `webpack.config.js`
