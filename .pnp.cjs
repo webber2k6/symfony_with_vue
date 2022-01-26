@@ -35,15 +35,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@hotwired/stimulus", "npm:3.0.1"],
+            ["@babel/core", "npm:7.16.12"],
+            ["@babel/plugin-proposal-class-properties", "virtual:f60e9f3695f1ba53c904357c0384e866a41e058af74cfb069ad4bfaaa95ff6e39cb1099777995dd7b73788ee9837bbe1a927bc24549923a1c032c67a35968c7e#npm:7.16.7"],
+            ["@babel/plugin-syntax-dynamic-import", "virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:7.8.3"],
+            ["@babel/preset-env", "virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:7.16.11"],
             ["@symfony/webpack-encore", "npm:1.8.1"],
             ["@vue/compiler-sfc", "npm:3.2.29"],
             ["axios", "npm:0.25.0"],
             ["core-js", "npm:3.20.3"],
             ["regenerator-runtime", "npm:0.13.9"],
+            ["tapable", "npm:2.2.1"],
             ["vue", "npm:3.2.29"],
-            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.0"],
+            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.8.3"],
             ["vue-router", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.0.12"],
+            ["webpack", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0"],
             ["webpack-notifier", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.15.0"]
           ],
           "linkType": "SOFT",
@@ -2152,15 +2157,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@gar-promisify-npm-1.1.2-2343f94380-d05081e088.zip/node_modules/@gar/promisify/",
           "packageDependencies": [
             ["@gar/promisify", "npm:1.1.2"]
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
-      ["@hotwired/stimulus", [
-        ["npm:3.0.1", {
-          "packageLocation": "./.yarn/cache/@hotwired-stimulus-npm-3.0.1-0c2a8a29ee-5f2dbfeb3d.zip/node_modules/@hotwired/stimulus/",
-          "packageDependencies": [
-            ["@hotwired/stimulus", "npm:3.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -8142,15 +8138,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["root-workspace-0b6124", "workspace:."],
-            ["@hotwired/stimulus", "npm:3.0.1"],
+            ["@babel/core", "npm:7.16.12"],
+            ["@babel/plugin-proposal-class-properties", "virtual:f60e9f3695f1ba53c904357c0384e866a41e058af74cfb069ad4bfaaa95ff6e39cb1099777995dd7b73788ee9837bbe1a927bc24549923a1c032c67a35968c7e#npm:7.16.7"],
+            ["@babel/plugin-syntax-dynamic-import", "virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:7.8.3"],
+            ["@babel/preset-env", "virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:7.16.11"],
             ["@symfony/webpack-encore", "npm:1.8.1"],
             ["@vue/compiler-sfc", "npm:3.2.29"],
             ["axios", "npm:0.25.0"],
             ["core-js", "npm:3.20.3"],
             ["regenerator-runtime", "npm:0.13.9"],
+            ["tapable", "npm:2.2.1"],
             ["vue", "npm:3.2.29"],
-            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.0"],
+            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.8.3"],
             ["vue-router", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.0.12"],
+            ["webpack", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0"],
             ["webpack-notifier", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:1.15.0"]
           ],
           "linkType": "SOFT",
@@ -8850,6 +8851,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["virtual:d7da7759ad9bf5dd3b61ab136507c42de23baf6100d846348ee03b1138d90be28ba563f08c927a4e06f8bcc41afcfcb21bfdf5fe9b68f07ebacafac653b2d9d7#npm:5.3.0", {
+          "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-3707390cd6/0/cache/terser-webpack-plugin-npm-5.3.0-ab1338dfb0-f6735b8bb2.zip/node_modules/terser-webpack-plugin/",
+          "packageDependencies": [
+            ["terser-webpack-plugin", "virtual:d7da7759ad9bf5dd3b61ab136507c42de23baf6100d846348ee03b1138d90be28ba563f08c927a4e06f8bcc41afcfcb21bfdf5fe9b68f07ebacafac653b2d9d7#npm:5.3.0"],
+            ["@swc/core", null],
+            ["@types/esbuild", null],
+            ["@types/swc__core", null],
+            ["@types/uglify-js", null],
+            ["@types/webpack", null],
+            ["esbuild", null],
+            ["jest-worker", "npm:27.4.6"],
+            ["schema-utils", "npm:3.1.1"],
+            ["serialize-javascript", "npm:6.0.0"],
+            ["source-map", "npm:0.6.1"],
+            ["terser", "virtual:30796e255d12fabe1e366b3406aa09a771b07e958a89435b9f1f173fa20d44ead76aa7211d08e8d9cfeeb91431d99d17cf393be2b1a6ef6fda8f660159040165#npm:5.10.0"],
+            ["uglify-js", null],
+            ["webpack", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0"]
+          ],
+          "packagePeers": [
+            "@swc/core",
+            "@types/esbuild",
+            "@types/swc__core",
+            "@types/uglify-js",
+            "@types/webpack",
+            "esbuild",
+            "uglify-js",
+            "webpack"
+          ],
+          "linkType": "HARD",
+        }],
         ["virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:5.3.0", {
           "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-30796e255d/0/cache/terser-webpack-plugin-npm-5.3.0-ab1338dfb0-f6735b8bb2.zip/node_modules/terser-webpack-plugin/",
           "packageDependencies": [
@@ -9110,22 +9141,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["vue-loader", [
-        ["npm:17.0.0", {
-          "packageLocation": "./.yarn/cache/vue-loader-npm-17.0.0-6ebaa2d3c5-a6eb675f07.zip/node_modules/vue-loader/",
+        ["npm:16.8.3", {
+          "packageLocation": "./.yarn/cache/vue-loader-npm-16.8.3-e05f7daca3-7c0566847b.zip/node_modules/vue-loader/",
           "packageDependencies": [
-            ["vue-loader", "npm:17.0.0"]
+            ["vue-loader", "npm:16.8.3"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.0", {
-          "packageLocation": "./.yarn/__virtual__/vue-loader-virtual-ae4b6e073c/0/cache/vue-loader-npm-17.0.0-6ebaa2d3c5-a6eb675f07.zip/node_modules/vue-loader/",
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.8.3", {
+          "packageLocation": "./.yarn/__virtual__/vue-loader-virtual-eb0ced2afc/0/cache/vue-loader-npm-16.8.3-e05f7daca3-7c0566847b.zip/node_modules/vue-loader/",
           "packageDependencies": [
-            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:17.0.0"],
+            ["vue-loader", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.8.3"],
             ["@types/webpack", null],
             ["chalk", "npm:4.1.2"],
             ["hash-sum", "npm:2.0.0"],
             ["loader-utils", "npm:2.0.2"],
-            ["webpack", null]
+            ["webpack", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0"]
           ],
           "packagePeers": [
             "@types/webpack",
@@ -9185,6 +9216,43 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webpack", "npm:5.67.0"]
           ],
           "linkType": "SOFT",
+        }],
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0", {
+          "packageLocation": "./.yarn/__virtual__/webpack-virtual-d7da7759ad/0/cache/webpack-npm-5.67.0-77afb9c06d-a7f810a5e1.zip/node_modules/webpack/",
+          "packageDependencies": [
+            ["webpack", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:5.67.0"],
+            ["@types/eslint-scope", "npm:3.7.3"],
+            ["@types/estree", "npm:0.0.50"],
+            ["@types/webpack-cli", null],
+            ["@webassemblyjs/ast", "npm:1.11.1"],
+            ["@webassemblyjs/wasm-edit", "npm:1.11.1"],
+            ["@webassemblyjs/wasm-parser", "npm:1.11.1"],
+            ["acorn", "npm:8.7.0"],
+            ["acorn-import-assertions", "virtual:8164af9cccd78806ffbeab0fd785855798bf58ff1b8a0e9ebfae33a90fa1b6fdd96836ad047974cae12246c92f313c721eda3731c7d3232aa614ca158ad62e4d#npm:1.8.0"],
+            ["browserslist", "npm:4.19.1"],
+            ["chrome-trace-event", "npm:1.0.3"],
+            ["enhanced-resolve", "npm:5.8.3"],
+            ["es-module-lexer", "npm:0.9.3"],
+            ["eslint-scope", "npm:5.1.1"],
+            ["events", "npm:3.3.0"],
+            ["glob-to-regexp", "npm:0.4.1"],
+            ["graceful-fs", "npm:4.2.9"],
+            ["json-parse-better-errors", "npm:1.0.2"],
+            ["loader-runner", "npm:4.2.0"],
+            ["mime-types", "npm:2.1.34"],
+            ["neo-async", "npm:2.6.2"],
+            ["schema-utils", "npm:3.1.1"],
+            ["tapable", "npm:2.2.1"],
+            ["terser-webpack-plugin", "virtual:d7da7759ad9bf5dd3b61ab136507c42de23baf6100d846348ee03b1138d90be28ba563f08c927a4e06f8bcc41afcfcb21bfdf5fe9b68f07ebacafac653b2d9d7#npm:5.3.0"],
+            ["watchpack", "npm:2.3.1"],
+            ["webpack-cli", null],
+            ["webpack-sources", "npm:3.2.3"]
+          ],
+          "packagePeers": [
+            "@types/webpack-cli",
+            "webpack-cli"
+          ],
+          "linkType": "HARD",
         }],
         ["virtual:ef8ec53664a435218575cfa61af6f29dfc4600716ef092862b5edcf50abb9c6abc7e3d0e5d67da75c8531a85df71e4f87e9a228eaf7a85397da827a7c1e1d761#npm:5.67.0", {
           "packageLocation": "./.yarn/__virtual__/webpack-virtual-8164af9ccc/0/cache/webpack-npm-5.67.0-77afb9c06d-a7f810a5e1.zip/node_modules/webpack/",

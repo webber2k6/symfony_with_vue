@@ -1,14 +1,19 @@
 {
     "devDependencies": {
-        "@hotwired/stimulus": "^3.0.0",
+        "@babel/core": "^7.16.12",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/preset-env": "^7.16.11",
         "@symfony/webpack-encore": "^1.7.0",
         "@vue/compiler-sfc": "^3.2.29",
         "axios": "^0.25.0",
         "core-js": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
+        "tapable": "^2.2.1",
         "vue": "next",
-        "vue-loader": "next",
+        "vue-loader": "^16.7.0",
         "vue-router": "next",
+        "webpack": "^5.67.0",
         "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",

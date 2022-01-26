@@ -68,3 +68,15 @@ Die Dateien für Symfony UX werden nicht benötigt und können wieder entfernt w
 * /assets/*
 * `@symfony/stimulus-bridge` aus der Datei `package.json`
 * `enableStimulusBridge(...)` aus der Datei `webpack.config.js`
+
+Mithilfe von Yarn werden die JavaScript-Abhängigkeiten installiert:
+
+* `yarn add vue@next vue-loader@^16.7.0 @vue/compiler-sfc vue-router@next axios --dev`
+
+In meinem Fall war es erforderlich weitere Babel-Pakete zu installieren.
+
+* `yarn add @babel/core @babel/plugin-proposal-class-properties @babel/plugin-syntax-dynamic-import @babel/preset-env`
+
+Anschließend kann webpack mit dem Kompilieren beginnen.
+
+* `yarn dev-server`

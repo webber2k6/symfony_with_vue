@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.7.0":
+"@babel/core@npm:^7.16.12, @babel/core@npm:^7.7.0":
   version: 7.16.12
   resolution: "@babel/core@npm:7.16.12"
   dependencies:
@@ -1084,7 +1084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.10.0":
+"@babel/preset-env@npm:^7.10.0, @babel/preset-env@npm:^7.16.11":
   version: 7.16.11
   resolution: "@babel/preset-env@npm:7.16.11"
   dependencies:
@@ -1242,13 +1242,6 @@ __metadata:
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
   checksum: d05081e0887a49c178b75ee3067bd6ee086f73c154d121b854fb2e044e8a89cb1cbb6de3a0dd93a519b80f0531fda68b099dd7256205f7fbb3490324342f2217
-  languageName: node
-  linkType: hard
-
-"@hotwired/stimulus@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "@hotwired/stimulus@npm:3.0.1"
-  checksum: 5f2dbfeb3dfff8472e1d0ef7db59a18d71540651861c0c5839fa32c56fcd5cae3fc6183a94746303c5adfbd66a9b552a3167e7e193c04dfaa6f51a8e5bea8e5e
   languageName: node
   linkType: hard
 
@@ -5997,15 +5990,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@hotwired/stimulus": ^3.0.0
+    "@babel/core": ^7.16.12
+    "@babel/plugin-proposal-class-properties": ^7.16.7
+    "@babel/plugin-syntax-dynamic-import": ^7.8.3
+    "@babel/preset-env": ^7.16.11
     "@symfony/webpack-encore": ^1.7.0
     "@vue/compiler-sfc": ^3.2.29
     axios: ^0.25.0
     core-js: ^3.0.0
     regenerator-runtime: ^0.13.2
+    tapable: ^2.2.1
     vue: next
-    vue-loader: next
+    vue-loader: ^16.7.0
     vue-router: next
+    webpack: ^5.67.0
     webpack-notifier: ^1.6.0
   languageName: unknown
   linkType: soft
@@ -6576,7 +6574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tapable@npm:^2.1.1, tapable@npm:^2.2.0":
+"tapable@npm:^2.1.1, tapable@npm:^2.2.0, tapable@npm:^2.2.1":
   version: 2.2.1
   resolution: "tapable@npm:2.2.1"
   checksum: 3b7a1b4d86fa940aad46d9e73d1e8739335efd4c48322cb37d073eb6f80f5281889bf0320c6d8ffcfa1a0dd5bfdbd0f9d037e252ef972aca595330538aac4d51
@@ -6816,16 +6814,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-loader@npm:next":
-  version: 17.0.0
-  resolution: "vue-loader@npm:17.0.0"
+"vue-loader@npm:^16.7.0":
+  version: 16.8.3
+  resolution: "vue-loader@npm:16.8.3"
   dependencies:
     chalk: ^4.1.0
     hash-sum: ^2.0.0
     loader-utils: ^2.0.0
   peerDependencies:
     webpack: ^4.1.0 || ^5.0.0-0
-  checksum: a6eb675f07357a7d7181b78549e342c444b4e28896f84444506f940c14bdd7833276f50d645efcdc742ba987218745f965361921f99012fecf184e0aae67a4a0
+  checksum: 7c0566847b09bd1d0b8b1bd146274eb53c775668388b10a6fcd0968b41353c85018c24bc91f7ed31c20a5d5fcdc50f08149c4656663500075576b06e546ca976
   languageName: node
   linkType: hard
 
@@ -7006,7 +7004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.35":
+"webpack@npm:^5.35, webpack@npm:^5.67.0":
   version: 5.67.0
   resolution: "webpack@npm:5.67.0"
   dependencies:
